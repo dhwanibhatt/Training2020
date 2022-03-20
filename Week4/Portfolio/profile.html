@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 35vh;
+      background: #eff4fd;
+      position: relative;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <nav class="fill">
+      <img src="img/logo.png" class="logo">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="signin.html">SIGN IN</a></li>
+        <li><a href="signup.html">SIGN UP</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <h2 style="text-align:center">Our Hobbies</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="img/virat.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Cricket</h2>
+          <p class="title">Primary Hobby</p>
+          <p>Cricket is a bat-and-ball game played between two teams of eleven players each on a field at the centre of
+            which is a 22-yard (20-metre) pitch with a wicket </p>
+          <p><button class="button">View</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="img/webShow.jpg" alt="Web Series" style="width:100%">
+        <div class="container">
+          <h2>Watching Web Shows</h2>
+          <p class="title">Primary Hobby</p>
+          <p>OTT refers to any streaming service that delivers content over the internet. </p>
+          <p><button class="button">View</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="img/musicLogo.png" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Listening to Music</h2>
+          <p class="title">Secondary Hobby</p>
+          <p>We like to listen to various genres of music</p>
+          <p><button class="button">View</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Travelling.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Travelling</h2>
+        <p class="title">Secondary Hobby</p>
+        <p>Exploring various places can make you get the best experience.</p>
+      
+        <p><button class="button">View</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="column">
+  <div class="card">
+    <img src="img/Cooking.jpg" alt="John" style="width:100%">
+    <div class="container">
+      <h2>Cooking</h2>
+      <p class="title">Primary Hobby</p>
+      <p>Cooking is a kind of life saving art which every individual should have</p>
+      <p><button class="button">View</button></p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+
+</html>

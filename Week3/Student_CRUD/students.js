@@ -1,0 +1,32 @@
+const students=[{
+    "id": 1,
+    "first_name": "Holly",
+    "last_name": "Geeson",
+    "email": "hgeeson0@purevolume.com"
+  }, {
+    "id": 2,
+    "first_name": "Chickie",
+    "last_name": "Freeland",
+    "email": "cfreeland1@abc.net.au"
+  }, {
+    "id": 3,
+    "first_name": "Gallard",
+    "last_name": "Winning",
+    "email": "gwinning2@ucoz.com"
+  }, {
+    "id": 4,
+    "first_name": "Mattie",
+    "last_name": "Quinnell",
+    "email": "mquinnell3@mapquest.com"
+  }, {
+    "id": 5,
+    "first_name": "Tamar",
+    "last_name": "Simes",
+    "email": "tsimes4@de.vu"
+  }, {
+    "id": 6,
+    "first_name": "Connor",
+    "last_name": "Leer",
+    "email": "cleer5@a8.net"
+  }]
+  module.exports=students;
